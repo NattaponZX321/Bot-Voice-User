@@ -18,7 +18,10 @@
 
 2️⃣ **ติดตั้ง Dependencies**  
 ```bash
-npm install
+npm install discord.js
+npm install fs
+npm install axios
+npm install ws
 ```
 
 3️⃣ **ตั้งค่า Token ในไฟล์ `index_bot.js`**  
@@ -28,7 +31,7 @@ botToken=your_user_token_here
 
 4️⃣ **รันบอท**  
 ```bash
-node index.js
+node index_bot.js
 ```
 
 ## 📜 หมายเหตุ  
